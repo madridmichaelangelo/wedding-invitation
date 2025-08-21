@@ -94,7 +94,7 @@
       data-aos="fade-up" 
       data-aos-delay="600"
     >
-      Joyfully welcome you to share in the celebration of our love
+      Joyfully welcome you to share in the celebration of their love
     </h3>
 
     <!-- Bible verse -->
@@ -114,7 +114,7 @@
       data-aos="fade-up" 
       data-aos-delay="1000"
     >
-      We’re getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
+      We are getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
         </h3>
   </div>
 </div>
@@ -138,7 +138,7 @@
       </h2>
 
     <h3 class="text-lg md:text-2xl lg:text-3xl font-serif text-white mb-6 drop-shadow-md" data-aos="fade-up" data-aos-delay="500">
-      Joyfully welcome you to share in the celebration of our love!
+      Joyfully welcome you to share in the celebration of their love!
     </h3>
 
     <h3 class="border-l-4 border-[#d4af37] pl-4 italic text-white text-shadow-luxury p-6" 
@@ -148,7 +148,7 @@
     </h3>
 
     <h3 class="text-lg md:text-2xl lg:text-3xl font-serif text-white drop-shadow-md p-6" data-aos="fade-up" data-aos-delay="1000">
-       We’re getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
+       We are getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
     </h3>
     </div>
   </div>
@@ -514,28 +514,40 @@
     Please let us know if you'll be joining us on our special day. Your response helps us plan the perfect celebration!
   </p>
   
-  <form class="max-w-lg mx-auto space-y-6" data-aos="fade-up" data-aos-delay="400">
+  <form class="max-w-lg mx-auto space-y-6" data-aos="fade-up" data-aos-delay="400" id="contactRSVP">
     <div class="relative">
       <input type="text" placeholder="Complete Name" 
-             class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift" />
+             class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift" 
+             name ="completename"
+             />
     </div>
     <div class="relative">
       <input type="email" placeholder="Email Address" 
-             class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift" />
+             class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
+             name ="emailaddress"
+              />
     </div>
     <div class="relative">
-      <select class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift">
-        <option>Will Attend</option>
-        <option>Will Not Attend</option>
+      <select class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
+
+      name="attendance">
+        <option >Not decided yet</option>
+        <option>Yes, I will celebrate with you guys!</option>
+         <option>Sorry, will not be able to come</option>
       </select>
     </div>
     <div class="relative">
       <textarea placeholder="Special Messages to us (optional)" 
                 rows="4"
-                class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift resize-none"></textarea>
+                class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift resize-none"
+
+                name="specialmessage"
+                ></textarea>
     </div>
     <button type="submit" 
-            class="luxury-gradient text-white py-4 px-12 rounded-2xl hover:scale-105 transition-all duration-300 text-lg font-semibold font-luxury shadow-2xl pulse-glow">
+            class="luxury-gradient text-white py-4 px-12 rounded-2xl hover:scale-105 transition-all duration-300 text-lg font-semibold font-luxury shadow-2xl pulse-glow"
+>
+            
       Send RSVP ✨
     </button>
   </form>
@@ -565,9 +577,7 @@
 <script src="js/countdown.js"></script>
 <script src="js/animation.js"></script>
 <script src="js/navigation.js"></script>
+<script src="js/contactRSVP.js"></script>
+
 </body>
 </html>
-
-
-
-
