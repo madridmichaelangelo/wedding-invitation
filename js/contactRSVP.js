@@ -8,7 +8,7 @@ document.getElementById('contactRSVP').addEventListener('submit', function(e) {
     specialmessage: e.target.specialmessage.value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbyubk2A3MO2WF1LOc5VlYoBTUidtdQo7weXdTkqrliohxmWn8-qcC4_lYEvDtHfYmwz/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyhzB-O0kcZKvnlA2jZ-_tvBMXpAynKH0IeLSoGvn5OclpV3hXrXQtJhRZiYdylYAUO/exec", {
     method: "POST",
     body: JSON.stringify(formData),
     headers: { "Content-Type": "application/json" }
@@ -38,5 +38,6 @@ document.getElementById('contactRSVP').addEventListener('submit', function(e) {
 URL.revokeObjectURL(link.href); */
 
 //this will be stored to GoogleSheet for manual confirmation
+
 
 
