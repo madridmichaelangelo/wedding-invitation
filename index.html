@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Michael & Elcia | Wedding Invitation</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" type="image/x-icon" href="images/haciendasolange/wv_1.jpeg">
+  <link rel="icon" type="image/x-icon" href="images/haciendasolange/wv_6.jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <!-- AOS Library -->
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -24,8 +24,8 @@
       <li><a href="#home" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Welcome</a></li>
       <li><a href="#date" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Date & Time</a></li>
       <li><a href="#location" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Venue</a></li>
-      <li><a href="#reminder" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Reminders</a></li>
       <li><a href="#entourage" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Entourage</a></li>
+            <li><a href="#reminder" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">Reminders</a></li>
       <li><a href="#rsvp" class="hover:text-[#d4af37] transition-all duration-300 hover:scale-110">RSVP</a></li>
     </ul>
     <button id="menu-toggle" class="md:hidden focus:outline-none z-50 hover-lift">
@@ -43,8 +43,8 @@
           <li><a href="#home" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Welcome</a></li>
           <li><a href="#date" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Date & Time</a></li>
           <li><a href="#location" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Venue</a></li>
-          <li><a href="#reminder" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Reminders</a></li>
           <li><a href="#entourage" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Entourage</a></li>
+          <li><a href="#reminder" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">Reminders</a></li>
           <li><a href="#rsvp" onclick="closeMenu()" class="block hover:text-[#d4af37] transition-all duration-300 text-lg">RSVP</a></li>
         </ul>
       </div>
@@ -61,7 +61,7 @@
 <div class="relative md:hidden">
   <!-- Background image -->
   <img 
-    src="images/weddingbackground/wedding-bg2.jpg" 
+    src="images/weddingbackground/wedding-bg6.jpg" 
     alt="Wedding background" 
     class="w-full h-screen object-cover"
   >
@@ -120,62 +120,72 @@
 </div>
 
 <!--Desktop view homepage-->
-<div class="relative hidden md:block w-full h-screen overflow-hidden">
+<div class="relative hidden md:block w-full h-full overflow-hidden">
   <!-- Background Image -->
-  <img src="images/haciendasolange/wv_1.jpeg" alt="Wedding background" class="w-full h-full object-cover filter brightness-85">
+ <img src="images/weddingbackground/wedding-bg10.jpg" alt="Wedding background" class="w-full h-screen object-cover filter brightness-85  ">
+  <!-- Overlay Content shifted to left -->
+  <div class="absolute inset-0 flex  justify-center items-center text-left px-10 md:px-32 lg:px-50">
 
-  <!-- Overlay Content -->
-  <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-6 md:px-16 lg:px-3 ">
-    <div class="bg-black bg-opacity-40 rounded-2xl py-6">
-    <h3  class="text-lg md:text-2xl lg:text-3xl font-luxury text-white text-shadow-luxury tracking-wide" 
-      data-aos="fade-up" 
-      data-aos-delay="200">
-      By God's Grace,
-    </h3>
 
-   <h2 class="text-7xl lg:text-8xl font-script mb-8  shimmer-text-welcome p-8 text-shadow-luxury" data-aos="zoom-in">
+    <div class="bg-black bg-opacity-20  py-6 md:px-10">
+      <h3  
+        class="text-lg md:text-2xl lg:text-3xl font-luxury text-white text-shadow-luxury tracking-wide" 
+        data-aos="fade-up" 
+        data-aos-delay="200">
+        By God's Grace,
+      </h3>
+
+      <h2 class="text-7xl lg:text-8xl font-script mb-8 shimmer-text-welcome p-8 text-shadow-luxury" data-aos="zoom-in">
         Michael & Elcia
       </h2>
 
-    <h3 class="text-lg md:text-2xl lg:text-3xl font-serif text-white mb-6 drop-shadow-md" data-aos="fade-up" data-aos-delay="500">
-      Joyfully welcome you to share in the celebration of their love!
-    </h3>
+      <h3 class="text-lg md:text-2xl lg:text-4xl font-serif text-white mb-6 drop-shadow-md" data-aos="fade-up" data-aos-delay="500">
+        Joyfully welcome you to share in the celebration of their love!
+      </h3>
 
-    <h3 class="border-l-4 border-[#d4af37] pl-4 italic text-white text-shadow-luxury p-6" 
-      data-aos="fade-up" 
-      data-aos-delay="800">
-      “Therefore what God has joined together, let no one separate.” — Mark 10:9
-    </h3>
+      <h3 class="border-l-4 border-[#d4af37] pl-4 italic text-white text-shadow-luxury p-6 text-lg md:text-2xl lg:text-2xl" 
+        data-aos="fade-up" 
+        data-aos-delay="800">
+        “Therefore what God has joined together, let no one separate.” — Mark 10:9
+      </h3>
 
-    <h3 class="text-lg md:text-2xl lg:text-3xl font-serif text-white drop-shadow-md p-6" data-aos="fade-up" data-aos-delay="1000">
-       We are getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
-    </h3>
+      <h3 class="text-lg md:text-2xl lg:text-4xl font-serif text-white drop-shadow-md p-6" data-aos="fade-up" data-aos-delay="1000">
+        We are getting married, and we can’t wait to celebrate with you! <span class="text-blue-300">❤</span>
+      </h3>
     </div>
   </div>
 </div>
+
 
 
 </section>
 
 
 <!-- Date & Time -->
-<div id="date"></div>
-<section data-aos="fade-up" class="py-20 px-6 sm:px-10 text-center overflow-hidden shadow-2xl mx-auto text-black luxury-gradient">
+<div id="date" class="py-6"></div>
 
-	<div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover-lift p-10 bg-white">
-  <h2 class="text-4xl sm:text-5xl font-luxury font-bold mb-8 tracking-tight text-shadow-luxury" data-aos="zoom-in">
-    🗓️ Date & Time
+<section data-aos="fade-up" class="  text-center overflow-hidden shadow-2xl mx-auto text-black luxury-gradient grid lg:grid-cols-2 gap-5">
+
+	<div class=" overflow-hidden shadow-2xl border-4 border-white hover-lift p-10 bg-white ">
+  <h2 class="text-4xl sm:text-5xl  mb-8 tracking-tight text-shadow-luxury font-script text-[#0a1f44]" data-aos="zoom-in">
+    Date & Time
   </h2>
   
   <p class="text-2xl sm:text-3xl mb-2 font-light text-shadow-luxury" data-aos="fade-up" data-aos-delay="200">
-    Friday, January 9<sup class="text-lg">th</sup>, 2026
-  </p>
-  <p class="text-xl sm:text-2xl mb-12 text-shadow-luxury" data-aos="fade-up" data-aos-delay="400">
-    2:30 PM | Reception to follow
+    Friday, January 9, 2026 | <b> 3:30 PM </b>
   </p>
 
-  <h3 class="text-3xl sm:text-4xl font-semibold font-luxury mb-8 text-shadow-luxury" data-aos="fade-up" data-aos-delay="600">
-    Countdown with us!
+ <img 
+  src="images/others/std.jpg" 
+  alt="bg1" 
+  class="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" 
+  data-aos="fade-up" 
+  data-aos-delay="600"
+/>
+ 
+
+  <h3 class="text-2xl sm:text-3xl mb-2 font-light text-shadow-luxury py-8" data-aos="fade-up" data-aos-delay="600">
+  Every <b style="color:red">heartbeat ♡ </b> brings us closer, let’s count the days together!
   </h3>
 
   <!-- Enhanced Countdown Timer -->
@@ -206,22 +216,51 @@
   </div>
 
   </div>
+
+ <div class="relative w-full  overflow-hidden">
+
+
+  <!-- Slider wrapper -->
+  <div class="flex animate-slide">
+
+
+    <img src="images/weddingbackground/wedding-bg2.jpg" alt="bg1" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg3.jpg" alt="bg2" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg4.jpg" alt="bg3" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg5.jpg" alt="bg4" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg7.jpg" alt="bg5" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg8.jpg" alt="bg6" class="w-full h-full object-cover flex-shrink-0" />
+    <img src="images/weddingbackground/wedding-bg9.jpg" alt="bg7" class="w-full h-full object-cover flex-shrink-0" />
+  </div>
+
+
+  </div>
+</div>
 </section>
 
 
 
 <!-- Location -->
 <div id="location"></div>
-<section data-aos="fade-up" class="py-20 bg-gradient-to-br from-[#e7ebf3] to-[#f1f5f9] px-6 text-center overflow-hidden shadow-2xl">
-  <h2 class="text-4xl sm:text-5xl font-luxury font-bold text-[#0a1f44] mb-12 tracking-tight leading-tight text-shadow-luxury" data-aos="zoom-in">
-    💒 Wedding Venue
+<section data-aos="fade-up" class="py-20 bg-gradient-to-br from-[#e7ebf3] to-[#f1f5f9]  text-center overflow-hidden shadow-2xl">
+  <h2 class="text-4xl sm:text-5xl font-script text-[#0a1f44] mb-12 tracking-tight leading-tight text-shadow-luxury" data-aos="zoom-in">
+     Wedding Venue
   </h2>
 
-  <div class="grid lg:grid-cols-4 gap-10 text-left items-start max-w-7xl mx-auto">
+<div class="relative w-screen h-64 md:h-96 lg:h-[500px] overflow-hidden">
+  <img 
+    src="images/haciendasolange/wv_1.jpeg" 
+    alt="bg1" 
+    class="absolute inset-0 w-full h-full object-cover py-6"
+    data-aos="fade-up" 
+    data-aos-delay="600"
+  >
+</div>
+  <div class="grid lg:grid-cols-4 gap-10 text-left items-start max-w-7xl mx-auto py-4">
     <!-- Enhanced Info Section -->
     <div class="lg:col-span-2 text-[#334155]" data-aos="fade-right">
 
-  <div class="aspect-[16/9] rounded-3xl overflow-hidden shadow-2xl border-4 border-white hover-lift">
+  <div class="aspect-[16/9] overflow-hidden shadow-2xl border-4 border-white hover-lift">
       <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.551544975697!2d120.873583!3d14.1173492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd9d47d1e89481%3A0xe031168a76d5712!2sHacienda%20Solange%20Private%20Events%20Place!5e0!3m2!1sen!2sph!4v1699999999999!5m2!1sen!2sph"
      class="w-full h-full border-0"
@@ -238,8 +277,8 @@
     <!-- Enhanced Map Section -->
     <div class="lg:col-span-2 space-y-8 " data-aos="fade-left">
     
-      <div class="bg-white p-6 rounded-2xl shadow-xl hover-lift">
-        <h3 class="text-xl font-bold mb-3 text-[#0a1f44] font-luxury">📍 HACIENDA SOLANGE TAGAYTAY</h3>
+      <div class="bg-white p-6  shadow-xl hover-lift">
+        <h3 class="text-xl font-bold mb-3 text-[#0a1f44] font-luxury"> HACIENDA SOLANGE TAGAYTAY</h3>
         <p class="text-[#475569] leading-relaxed">
           047 Aguinaldo-Alfonso Rd.<br>
           Brgy. Esperanza Ilaya 4123<br>
@@ -247,24 +286,24 @@
         </p>
       </div>
 
-      <div class="bg-white p-6 rounded-2xl shadow-xl hover-lift">
-        <h3 class="text-lg font-semibold mb-3 text-[#0a1f44] font-luxury">🌐 Website</h3>
+      <div class="bg-white p-6 shadow-xl hover-lift">
+        <h3 class="text-lg font-semibold mb-3 text-[#0a1f44] font-luxury"> Website: 
         <a href="https://www.haciendasolange.com/" class="text-[#d4af37] hover:text-[#0a1f44] transition-colors duration-300 font-medium" target="_blank">
           www.haciendasolange.com
-        </a>
+        </a> </h3>
       </div>
     </div>
   </div>
 
   <!-- Enhanced Landmarks -->
-  <h2 class="text-4xl sm:text-5xl font-luxury font-bold text-[#0a1f44] mb-12 tracking-tight leading-tight py-12 text-shadow-luxury" data-aos="zoom-in">
-    🗺️ Landmarks
+  <h2 class="text-4xl sm:text-5xl font-script text-[#0a1f44] mb-12 tracking-tight leading-tight py-4 text-shadow-luxury" data-aos="zoom-in">
+    Landmarks
   </h2>
 
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
     <!-- Landmark 1 -->
     <a href="https://www.google.com/maps/@14.1315687,120.9571019,3a,75y,229.52h,91.31t/data=!3m7!1e1!3m5!1sg_iFzpyrPKm-1JD-p6SHEQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-1.3100000000000023%26panoid%3Dg_iFzpyrPKm-1JD-p6SHEQ%26yaw%3D229.52!7i16384!8i8192?entry=ttu" target="_blank" data-aos="fade-up" data-aos-delay="200">
-      <div class="bg-white rounded-3xl shadow-xl hover-lift overflow-hidden">
+      <div class="bg-white shadow-xl hover-lift overflow-hidden">
         <h2 class="text-xl font-semibold text-center text-[#0a1f44] p-6 font-luxury">Tagaytay Bypass Road</h2>
         <div class="aspect-[4/3] overflow-hidden">
           <img src="images/landmarks/ld_2.jpg" alt="Tagaytay Bypass Road" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
@@ -274,8 +313,8 @@
 
     <!-- Landmark 2 -->
     <a href="https://www.google.com/maps/@14.1051087,120.8869334,3a,90y,7.77h,79.95t/data=!3m7!1e1!3m5!1sh8Kl6jAfagKhOzZzyI-Y4A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D10.049999999999997%26panoid%3Dh8Kl6jAfagKhOzZzyI-Y4A%26yaw%3D7.77!7i16384!8i8192?entry=ttu" target="_blank" data-aos="fade-up" data-aos-delay="400">
-      <div class="bg-white rounded-3xl shadow-xl hover-lift overflow-hidden">
-        <h2 class="text-xl font-semibold text-center text-[#0a1f44] p-6 font-luxury">Mini Fruitstand</h2>
+      <div class="bg-white  shadow-xl hover-lift overflow-hidden">
+        <h2 class="text-xl font-semibold text-center text-[#0a1f44] p-6 font-luxury">Fruit Shop</h2>
         <div class="aspect-[4/3] overflow-hidden">
           <img src="images/landmarks/ld_1.jpg" alt="Mini Fruitstand" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
         </div>
@@ -284,7 +323,7 @@
 
     <!-- Landmark 3 -->
     <a href="https://www.google.com/maps/@14.1174249,120.8758682,3a,75y,176.33h,79.67t/data=!3m7!1e1!3m5!1slbXHVbNundYTjk8WZYl07A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D10.327444536569445%26panoid%3DlbXHVbNundYTjk8WZYl07A%26yaw%3D176.3255888861215!7i16384!8i8192?entry=ttu" target="_blank" data-aos="fade-up" data-aos-delay="600">
-      <div class="bg-white rounded-3xl shadow-xl hover-lift overflow-hidden">
+      <div class="bg-white  shadow-xl hover-lift overflow-hidden">
         <h2 class="text-xl font-semibold text-center text-[#0a1f44] p-6 font-luxury">Hacienda Solange Tagaytay</h2>
         <div class="aspect-[4/3] overflow-hidden">
           <img src="images/landmarks/ld_3.jpg" alt="Resort front of Hacienda Solange" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
@@ -294,21 +333,21 @@
   </div>
 
   <!-- Enhanced Ceremony Venue -->
-  <h2 class="text-4xl sm:text-5xl font-luxury font-bold text-[#0a1f44] mb-12 tracking-tight leading-tight py-12 text-shadow-luxury" data-aos="zoom-in">
-    💒 Ceremony & Reception Venue
+  <h2 class="text-4xl sm:text-5xl font-script text-[#0a1f44] mb-12 tracking-tight leading-tight py-12 text-shadow-luxury" data-aos="zoom-in">
+   Ceremony & Reception Venue
   </h2>
 
   <div class="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto" data-aos="fade-up">
-    <div class="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl hover-lift">
+    <div class="aspect-[4/3] overflow-hidden  shadow-2xl hover-lift">
       <img src="images/haciendasolange/wv_1.jpeg" alt="solange" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700">
     </div>
-    <div class="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl hover-lift">
+    <div class="aspect-[4/3] overflow-hidden  shadow-2xl hover-lift">
       <img src="images/haciendasolange/wv_3.jpg" alt="solange" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700">
     </div>
-    <div class="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl hover-lift">
+    <div class="aspect-[4/3] overflow-hidden  shadow-2xl hover-lift">
       <img src="images/haciendasolange/wv_4.jpg" alt="solange" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700">
     </div>
-    <div class="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl hover-lift">
+    <div class="aspect-[4/3] overflow-hidden  shadow-2xl hover-lift">
       <img src="images/haciendasolange/wv_5.jpg" alt="solange" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700">
     </div>
   </div>
@@ -316,74 +355,190 @@
   <p class="text-sm text-gray-500 italic text-center mt-8 font-luxury">
     *Disclaimer: The photos displayed are for visual reference and may not represent the actual view or final styling of the venue on the event day. <br>ctto: Hacienda Solange Tagaytay
   </p>
+
+    <div class=" mb-12" >
+  </div>
+
+<div class="  max-w-4xl mx-auto  hover-lift">
+  <img src="images/others/timeline2.png" alt="timeline" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+    
+    </div>
+
+
 </section>
+
+
+
+
+
+<!-- Entourage -->
+<div id="entourage"></div>
+ <section class="relative text-center py-20 px-6 luxury-gradient text-white overflow-hidden shadow-2xl">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            
+            <!-- Main Title -->
+            <div class="mb-16">
+                <h2 class="text-5xl md:text-6xl font-script text-[#d4af37] mb-4">Our Wedding Entourage</h2>
+                <div class="category-divider"></div>
+            </div>
+
+            <!-- Primary Sponsors & Family Section -->
+            <div class="grid-section">
+                <h3 class="text-2xl font-luxury text-[#d4af37] mb-8 tracking-wide">HONORED GUESTS</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                    
+                    <!-- Principal Sponsors -->
+                    <div class="primary-sponsors backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20 hover-lift">
+                        <h4 class="text-xl font-luxury text-[#d4af37] mb-6 tracking-wide">Principal Sponsors</h4>
+                        <div class="space-y-3 text-white/90 font-luxury text-sm">
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Jessamine Paller </div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Simon Paller </div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Cristy Jaylo</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Kristine Miranda</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Arlan Miranda</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Ricky Amalingan</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Mary Joy Amalingan</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Esther Mercado</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Joselito Suatengco</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Kloyd Crisostomo</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Catherine Bohol</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Joseph Nietes</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Myradel Pie Nietes</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Ernest Farley Malazo</div>
+                        </div>
+                    </div>
+
+                    <!-- Parents -->
+                 <div class="grid grid-cols-1 gap-4  ">
+  
+                           <!-- Bride's Family -->
+                      <div class="primary-sponsors backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20 hover-lift">
+                          <h4 class="text-xl font-luxury text-[#d4af37] mb-6 tracking-wide">Bride's Family</h4>
+                          <div class="space-y-3 text-white/90 font-luxury text-sm">
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Marciano Marata</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Elma Marata</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Elmar Marata</div>
+                          </div>
+                        </div>
+
+                        <!-- Groom's Family -->
+                        <div class="primary-sponsors backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20 hover-lift">
+                          <h4 class="text-xl font-luxury text-[#d4af37] mb-6 tracking-wide">Groom's Family</h4>
+                          <div class="space-y-3 text-white/90 font-luxury text-sm">
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Thelma Evangelista</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Jristhelrone Dela Cruz</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Cris Ronel Evangelista</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">Kristin Evangelista</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 pb-1">John Lemeul Evangelista</div>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                    <!-- Officiant -->
+                    <div class="primary-sponsors backdrop-blur-lg rounded-2xl p-8 shadow-xl border border-white/20 hover-lift">
+                        <h4 class="text-xl font-luxury text-[#d4af37] mb-6 tracking-wide">Officiant</h4>
+                        <div class="text-white/90 font-luxury text-sm hover:text-[#d4af37] transition-colors duration-300">
+                            Pastor Toto Gustillo
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wedding Party Section -->
+            <div class="grid-section">
+                <h3 class="text-2xl font-luxury text-[#d4af37] mb-8 tracking-wide">WEDDING PARTY</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                    
+                    <!-- Bride's Side -->
+                    <div class="space-y-6">
+                        <!-- Maid of Honor -->
+                        <div class="wedding-party backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover-lift">
+                            <h4 class="text-lg font-luxury text-[#d4af37] mb-4 tracking-wide">Maid of Honor</h4>
+                            <div class="text-white/90 font-luxury text-sm hover:text-[#d4af37] transition-colors duration-300">
+                                Jasmine Mercado
+                            </div>
+                        </div>
+
+                        <!-- Bridesmaids & Bridesmen -->
+                        <div class="wedding-party backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover-lift">
+                            <h4 class="text-lg font-luxury text-[#d4af37] mb-4 tracking-wide">Bridesmaids & Bridesmen</h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-white/90 font-luxury text-sm">
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Jeremae Paller</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Rebeka Paller</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Ara Balambao</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Jamie Camille Regalado</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Mikaela Sabater</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Jenmark Calub Sy</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Arlan Miranda</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Groom's Side -->
+                    <div class="space-y-6">
+                        <!-- Best Man -->
+                        <div class="wedding-party backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover-lift">
+                            <h4 class="text-lg font-luxury text-[#d4af37] mb-4 tracking-wide">Best Man</h4>
+                            <div class="text-white/90 font-luxury text-sm hover:text-[#d4af37] transition-colors duration-300">
+                               Kimuel Diaz
+                            </div>
+                        </div>
+
+                        <!-- Groomsmen -->
+                        <div class="wedding-party backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover-lift">
+                            <h4 class="text-lg font-luxury text-[#d4af37] mb-4 tracking-wide">Groomsmen</h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-white/90 font-luxury text-sm">
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Arvin Josiah Dela Cruz</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Nicomedes Banlaygas</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">John Paul Cerezo</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Shane Bravo</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Jimboy Regalado</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Julian Christopher Ibasco</div>
+                                <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Wiljay Lazalita</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Special Roles Section -->
+            <div class="grid-section">
+                <h3 class="text-2xl font-luxury text-[#d4af37] mb-8 tracking-wide">SPECIAL ROLES</h3>
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+               
+                    <!-- Ceremony Roles -->
+                    <div class="special-roles-bg backdrop-blur-lg rounded-2xl p-6 shadow-xl border border-white/20 hover-lift">
+                        <h4 class="text-lg font-luxury text-[#d4af37] mb-4 tracking-wide">Ceremony Roles</h4>
+                        <div class="space-y-2 text-white/90 font-luxury text-sm">
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Samantha Jay Dela Cruz - Flower Girl </div>
+                             <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Mary Isabelle Evangelista - Flower Girl</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">John Michael Pido - Ring Bearer</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Peter Aurelious Evangelista - Banner Bearer</div>
+                            <div class="hover:text-[#d4af37] transition-colors duration-300 py-1">Gabriel Evangelista - Bible Bearer</div>
+               
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
 <!-- reminder -->
 <div id="reminder"></div>
-<section data-aos="fade-up" class="py-20 bg-white px-6 text-center overflow-hidden shadow-2xl">
-  <h2 class="text-4xl font-luxury font-bold text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in">💐 Wedding Guest Reminders</h2>
-
-  <div class="bg-gradient-to-br from-white to-[#f8fafc] p-8 sm:p-12 max-w-4xl mx-auto text-left space-y-8 rounded-3xl shadow-2xl hover-lift">
-    <h2 class="text-4xl sm:text-6xl py-6 font-bold font-script text-[#0a1f44] shimmer-text" data-aos="fade-right">Dear Beloved Guests,</h2>
-    <p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed" data-aos="fade-up" data-aos-delay="200">
-      As we look forward to celebrating this special day with you, we kindly ask for your understanding and cooperation with a few important reminders:
+<section data-aos="fade-up" class="py-20 bg-white px-8 text-center overflow-hidden shadow-2xl">
+  <h2 class="text-4xl font-script text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in"> Wedding Outfit Guide</h2>
+  <p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+      As we look forward to celebrating this special day with you, we kindly ask for your understanding and cooperation with a few important reminders.
     </p>
 
-    <!-- Enhanced Policy Cards -->
-    <div class="space-y-8" data-aos="fade-up">
-      <!-- Children Policy -->
-  
-        <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">👶 Children Policy</h3>
-        <p class="text-gray-700 text-lg font-luxury leading-relaxed">
-          We love your little ones dearly, but for this intimate occasion, we kindly request <span class="font-bold text-[#d4af37]">no children under 7 years old</span> attend the ceremony or reception. This allows all guests to relax and enjoy the event without worry.
-        </p>
-      
-
-      <!-- Dress Code -->
-
-        <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">🎨 Dress Code</h3>
-        <p class="text-gray-700 text-lg font-luxury leading-relaxed">
-          Please dress according to our theme: Attire in <span class="font-bold text-[#0F2573]">navy blue</span> or <span class="font-bold text-[#d4af37]">gold</span>.<br>
-          Your thoughtful outfit choice will help create a beautiful and cohesive atmosphere we'll all cherish in photos for years to come.
-        </p>
-
-      <!-- Program Respect -->
-
-        <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">🎤 Respecting the Program</h3>
-        <div class="space-y-3">
-          <div class="flex items-center space-x-3">
-            <span class="text-[#d4af37] text-xl">•</span>
-            <span class="text-gray-700 text-lg font-luxury">Be on time 🕊</span>
-          </div>
-          <div class="flex items-center space-x-3">
-            <span class="text-[#d4af37] text-xl">•</span>
-            <span class="text-gray-700 text-lg font-luxury">Refrain from unnecessary noise or disruptions during the ceremony</span>
-          </div>
-          <div class="flex items-center space-x-3">
-            <span class="text-[#d4af37] text-xl">•</span>
-            <span class="text-gray-700 text-lg font-luxury">Kindly respect the flow of the program and our emcees</span>
-          </div>
-        </div>
-        <p class="mt-4 text-gray-700 text-lg font-luxury leading-relaxed">
-          This helps ensure a smooth, meaningful, and memorable experience for everyone.
-        </p>
-
-    </div>
-
-    <p class="text-xl sm:text-2xl font-medium text-[#1e3a8a] font-luxury text-center py-4" data-aos="fade-up" data-aos-delay="600">
-      More than anything, we just want you to relax, have fun, and share this special day with us your presence truly means everything.
-    </p>
-
-    
-    <div  data-aos="fade-up" data-aos-delay="700">
-      <h2 class="text-4xl py-6 sm:text-5xl font-bold font-script text-[#0a1f44] shimmer-text ">Sincerely,<br><span class="text-3xl sm:text-4xl">Michael & Elcia</span></h2>
-    </div>
-  </div>
-
-  <!-- Enhanced Color Guide -->
-  <div class="pt-8 border-t border-gray-200 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-luxury font-bold text-[#0a1f44] mb-8 pt-8 text-shadow-luxury" data-aos="zoom-in">🎨 Color Guide</h2>
+   <!-- Enhanced Color Guide -->
+  <div class="pt-8  max-w-6xl mx-auto">
+    <h2 class="text-3xl font-script text-[#0a1f44] mb-8 pt-8 text-shadow-luxury" data-aos="zoom-in"> We encourage our guests to wear these colors for our special day</h2>
 
     <!-- Mobile Color Swatches -->
     <div class="md:hidden py-4" data-aos="fade-up">
@@ -413,127 +568,182 @@
 
     <!-- Enhanced Attire Inspiration -->
     <div class="border-gray-200 pt-12">
-      <h2 class="text-3xl font-luxury font-bold text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in">👔👗 Attire Inspiration</h2>
-      <div class="grid lg:grid-cols-2 gap-6">
-        <div  data-aos="fade-right">
-          <h3 class="text-3xl font-script mb-6 text-[#d4af37]">Ladies</h3>
-          <div class="rounded-3xl overflow-hidden shadow-2xl">
-            <img src="images/sample_attires/ladies_sample_dresses.jpg" alt="sample ladies dresses" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
+      <h2 class="text-3xl font-script text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in">Guest Attire Inspiration</h2>
+  
+
+<p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed py-6" data-aos="fade-up" data-aos-delay="200">
+Wear a smart casual clothes guided by the color code </p>  
+<div class="grid lg:grid-cols-2 gap-6">
+       <div class="overflow-hidden shadow-2xl" data-aos="fade-right">
+            <img src="images/sample_attires/7.png" alt="sample ladies dresses" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+          </div>
+
+           <div class="overflow-hidden shadow-2xl" data-aos="fade-left">
+            <img src="images/sample_attires/6.png" alt="sample ladies dresses" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
           </div>
         </div>
-        <div  data-aos="fade-left">
-          <h3 class="text-3xl font-script mb-6 text-[#0F2573]">Gentlemen</h3>
-          <div class="rounded-3xl overflow-hidden shadow-2xl">
-            <img src="images/sample_attires/gentlemen_sample_attires.jpg" alt="sample gentlemen attires" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
+
+  </div>
+
+              
+
+      <div class="border-gray-200 pt-12">
+      <h2 class="text-3xl font-script text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in">Entourage Attire Inspiration</h2>
+     
+ <p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed py-6" data-aos="fade-up" data-aos-delay="200">
+Wear a formal dress and suit guided by the color code </p>
+
+<div class="grid lg:grid-cols-2 gap-6">
+       <div class="overflow-hidden shadow-2xl" data-aos="fade-up">
+            <img src="images/sample_attires/8.png" alt="sample ladies dresses" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
           </div>
+
+               <div class="overflow-hidden shadow-2xl" data-aos="fade-up">
+            <img src="images/sample_attires/9.png" alt="sample ladies dresses" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
+          </div>
+             </div>
+ <p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed py-6" data-aos="fade-up" data-aos-delay="200">
+Not sure how to add a touch of <span class="font-bold text-[#d4af37]">gold</span>? A little sparkle in your accessories will do the trick!.<br><br>
+
         </div>
-      </div>
+  </div>
+
+
+
+  <div class="bg-gradient-to-br from-white to-[#f8fafc] p-8 sm:p-12 max-w-6xl mx-auto text-left space-y-8 shadow-2xl hover-lift">
+    <h2 class="text-4xl sm:text-6xl py-6 font-bold font-script text-[#0a1f44] shimmer-text" data-aos="fade-right">Dear Beloved Guests,</h2>
+    <p class="text-gray-700 text-lg sm:text-xl font-luxury leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+
+We can’t wait to celebrate this beautiful day with you! To help everything flow smoothly, we’d love your kind understanding with a few gentle reminders.   </p>
+
+   <div class="space-y-8" data-aos="fade-up">
+
+  <!-- Ceremony Reminders -->
+  <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">Ceremony Reminders</h3>
+  <div class="space-y-3">
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Don’t be late!</span> We’d hate for you to miss the “I do’s” come early, grab your seat, and soak up the moment with us.
+      </span>
+    </div>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Phones down, hearts open.</span> Our ceremony is unplugged let’s keep eyes on love, not screens. (Don’t worry, the pros will capture it all!)
+      </span>
+    </div>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Shhh… love is in the air.</span> Please help us keep the ceremony calm and sacred save the cheers and big hugs for after the kiss.
+      </span>
+    </div>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Little ones.</span> As much as we love kids, the ceremony may not be the best place for tiny adventurers, but if they must join, kindly keep a loving eye on them.
+      </span>
     </div>
   </div>
-</section>
 
-
-
-<!-- Entourage -->
-<div id="entourage"></div>
-<section data-aos="fade-up" class="relative text-center py-20 px-6 luxury-gradient text-white overflow-hidden shadow-2xl">
-  <h2 class="text-4xl font-luxury font-bold mb-12 text-shadow-luxury" data-aos="zoom-in">💐 Entourage</h2>
-
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
-    
-    <!-- Enhanced Groomsmen -->
-    <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl hover-lift border border-white/20" data-aos="fade-up" data-aos-delay="200">
-      <h3 class="text-2xl font-bold text-[#d4af37] mb-6 font-luxury">Groomsmen</h3>
-      <ul class="space-y-3 text-white/90 font-luxury">
-        <li class="hover:text-[#d4af37] transition-colors duration-300">John Reyes</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Mark dela Cruz</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Samuel Garcia</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Ryan Mendoza</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Kevin Santos</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">David Tan</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Andre Lopez</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Luke Navarro</li>
-      </ul>
+  <!-- Reception Reminders -->
+  <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">Reception Reminders</h3>
+  <div class="space-y-3">
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Eat, drink & be merry!</span> After the vows, it’s time to feast, laugh, and dance the night away.
+      </span>
     </div>
-
-    <!-- Enhanced Bridesmaids -->
-    <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl hover-lift border border-white/20" data-aos="fade-up" data-aos-delay="400">
-      <h3 class="text-2xl font-bold text-[#d4af37] mb-6 font-luxury">Bridesmaids</h3>
-      <ul class="space-y-3 text-white/90 font-luxury">
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Ana Rivera</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Jasmine Torres</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Clarisse Ramos</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Sophia Lim</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Grace Fernandez</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Karen Sy</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Lara Cruz</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Nina Gomez</li>
-      </ul>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Bring your sparkle.</span> Dress to impress and add a touch of gold if you like you’ll make the night shine brighter.
+      </span>
     </div>
-
-    <!-- Enhanced Bride's Family -->
-    <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl hover-lift border border-white/20" data-aos="fade-up" data-aos-delay="600">
-      <h3 class="text-2xl font-bold text-[#d4af37] mb-6 font-luxury">Bride's Family</h3>
-      <ul class="space-y-3 text-white/90 font-luxury">
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Maria Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Jose Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Elena Cruz</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Paul Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Rosa Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Carlos Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Elisa Marata</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Anna Marata</li>
-      </ul>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Go with the flow.</span> Our coordinators will guide the seating, meals, and program so all you have to do is enjoy.
+      </span>
     </div>
-
-    <!-- Enhanced Groom's Family -->
-    <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-2xl hover-lift border border-white/20" data-aos="fade-up" data-aos-delay="800">
-      <h3 class="text-2xl font-bold text-[#d4af37] mb-6 font-luxury">Groom's Family</h3>
-      <ul class="space-y-3 text-white/90 font-luxury">
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Michael Madrid Sr.</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Lourdes Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Peter Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Lucia Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Roberto Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Angela Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Francis Madrid</li>
-        <li class="hover:text-[#d4af37] transition-colors duration-300">Clarissa Madrid</li>
-      </ul>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Snap & share!</span> This is your time to take all the selfies, dance shots, and candid moments. Don’t forget to tag them with <span class="font-bold">#MichaelAnganSiElcia</span> so we can relive the fun.
+      </span>
+    </div>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Cheers responsibly.</span> Let’s toast, celebrate, and dance safely because the best memories are made when we remember them tomorrow.
+      </span>
     </div>
   </div>
+
+
+     <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">Gift Reminder</h3>
+    <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        Your presence is truly the best gift we could ask for. But if you wish to bless us more, a <span class="font-bold text-[#d4af37]">monetary gift</span> would be greatly appreciated 
+    as we start our journey together. Thank you for sharing your love and generosity with us!
+    </div>
+
+   <h3 class="text-2xl font-semibold text-[#1e3a8a] mb-4 font-luxury">Where to stay after the event?</h3>
+  <div class="flex items-start space-x-3">
+      <span class="text-[#d4af37] text-xl">•</span>
+      <span class="text-gray-700 text-lg font-luxury leading-relaxed">
+        <span class="font-bold">Our venue is just a short drive from Tagaytay!</span> Feel free to book a stay nearby so you can continue exploring and enjoying the area even after our special day.
+      </span>
+    </div>
+
+</div>
+
+<p class="text-xl sm:text-2xl font-medium text-[#1e3a8a] font-luxury text-center py-4" data-aos="fade-up" data-aos-delay="600">
+  More than anything, we just want you to relax, have fun, and share this special day with us your presence truly means a lot.
+</p>
+
+<div data-aos="fade-up" data-aos-delay="700">
+  <h2 class="text-4xl py-6 sm:text-5xl font-bold font-script text-[#0a1f44] shimmer-text ">
+    Sincerely,<br><span class="text-3xl sm:text-4xl">Michael & Elcia</span>
+  </h2>
+</div>
+
+ 
 </section>
-
-
 
 
 
 <!-- RSVP -->
-<section id="rsvp" data-aos="fade-up" class="py-20 bg-gradient-to-br from-white to-[#f8fafc] px-6 text-center overflow-hidden shadow-2xl">
-  <h2 class="text-4xl font-luxury font-bold text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in">💌 RSVP</h2>
+<section id="rsvp" data-aos="fade-up" class="py-20 bg-gradient-to-br from-[#e7ebf3] to-[#f1f5f9] px-6 text-center overflow-hidden shadow-2xl">
+  <h2 class="text-4xl font-script text-[#0a1f44] mb-8 text-shadow-luxury" data-aos="zoom-in"> RSVP</h2>
   <p class="text-xl text-gray-600 mb-12 font-luxury max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
     Please let us know if you'll be joining us on our special day. Your response helps us plan the perfect celebration!
   </p>
   
-  <form class="max-w-lg mx-auto space-y-6" data-aos="fade-up" data-aos-delay="400" id="contactRSVP">
+  <form class="max-w-lg mx-auto space-y-6" data-aos="fade-up" data-aos-delay="400" method="post" name="rsvpform" action="">
     <div class="relative">
       <input type="text" placeholder="Complete Name" 
              class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift" 
-             name ="completename"
+             name ="Complete Name" style="text-transform: capitalize;"
              />
     </div>
     <div class="relative">
       <input type="email" placeholder="Email Address" 
              class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
-             name ="emailaddress"
+             name ="Emailaddress"
               />
     </div>
     <div class="relative">
       <select class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
 
-      name="attendance">
-        <option >Not decided yet</option>
-        <option>Yes, I will celebrate with you guys!</option>
-         <option>Sorry, will not be able to come</option>
+      name="Attendance">
+   
+        <option value= "Yes, I will celebrate with you guys">Yes, I will celebrate with you guys!</option>
+         <option value ="Sorry, will not be able to come">Sorry, will not be able to come</option>
+          <option value="Not decided yet" >Not decided yet</option>
       </select>
     </div>
     <div class="relative">
@@ -541,16 +751,21 @@
                 rows="4"
                 class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift resize-none"
 
-                name="specialmessage"
+                name="Special Message"
                 ></textarea>
     </div>
-    <button type="submit" 
+    <input type="hidden" name="timestamp" id="timestamp">
+    <button type="submit" id="submit" value="submit"
             class="luxury-gradient text-white py-4 px-12 rounded-2xl hover:scale-105 transition-all duration-300 text-lg font-semibold font-luxury shadow-2xl pulse-glow"
 >
             
       Send RSVP ✨
     </button>
   </form>
+<div id="loadingOverlay">
+  <div class="spinner"></div> Submitting your response...
+</div>
+
 </section>
 
 <!-- Footer -->
@@ -579,5 +794,7 @@
 <script src="js/navigation.js"></script>
 <script src="js/contactRSVP.js"></script>
 
+<script>  document.getElementById('timestamp').value =
+    new Date().toLocaleString("en-PH", { timeZone: "Asia/Manila" });</script>
 </body>
 </html>

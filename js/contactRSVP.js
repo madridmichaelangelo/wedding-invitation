@@ -1,23 +1,27 @@
-document.getElementById('contactRSVP').addEventListener('submit', function(e) {
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz-V6jbWtChK6mIz91lAIaWymyz7UWiedhR6AV7HZe-v8RE5KwZ2KVnt7Sbz7bCQc3O/exec';
+const form = document.forms['rsvpform'];
+const loadingOverlay = document.getElementById('loadingOverlay');
+
+form.addEventListener('submit', e => {
   e.preventDefault();
 
-  const formData = {
-    completename: e.target.completename.value,
-    emailaddress: e.target.emailaddress.value,
-    attendance: e.target.attendance.value,
-    specialmessage: e.target.specialmessage.value
-  };
+  // Show loader
+  loadingOverlay.style.display = "flex";
 
-  fetch("https://script.google.com/macros/s/AKfycbz-V6jbWtChK6mIz91lAIaWymyz7UWiedhR6AV7HZe-v8RE5KwZ2KVnt7Sbz7bCQc3O/exec", {
-    method: "POST",
-    body: JSON.stringify(formData),
-    headers: { "Content-Type": "application/json" }
-  })
-  .then(() => alert("Response saved successfully!"))
-  .catch(err => {
-    alert("Error: " + err);
-    console.error(err);
-  });
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      alert("Submitted, thank you!");
+      form.reset();
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      alert("Error submitting response. Please try again.");
+    })
+    .finally(() => {
+      // Hide loader
+      loadingOverlay.style.display = "none";
+      window.location.href = "index.html";
+    });
 });
 
  /*	let output = "";
@@ -38,7 +42,4 @@ document.getElementById('contactRSVP').addEventListener('submit', function(e) {
 URL.revokeObjectURL(link.href); */
 
 //this will be stored to GoogleSheet for manual confirmation
-
-
-
 
