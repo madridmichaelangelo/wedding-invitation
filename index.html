@@ -728,18 +728,18 @@ We can’t wait to celebrate this beautiful day with you! To help everything flo
       <input type="text" placeholder="Complete Name" 
              class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift" 
              name ="Complete Name" style="text-transform: capitalize;"
-             />
+             required/>
     </div>
     <div class="relative">
       <input type="email" placeholder="Email Address" 
              class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
              name ="Emailaddress"
-              />
+              required/>
     </div>
     <div class="relative">
       <select class="w-full border-2 border-[#e2e8f0] p-4 rounded-2xl focus:border-[#d4af37] focus:outline-none transition-all duration-300 text-lg font-luxury hover-lift"
 
-      name="Attendance">
+      name="Attendance" required>
    
         <option value= "Yes, I will celebrate with you guys">Yes, I will celebrate with you guys!</option>
          <option value ="Sorry, will not be able to come">Sorry, will not be able to come</option>
@@ -798,6 +798,7 @@ We can’t wait to celebrate this beautiful day with you! To help everything flo
     new Date().toLocaleString("en-PH", { timeZone: "Asia/Manila" });</script>
 </body>
 </html>
+
 
 
 
